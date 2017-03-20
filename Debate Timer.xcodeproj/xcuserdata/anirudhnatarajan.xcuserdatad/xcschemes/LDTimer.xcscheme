@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "77742ADF1E7E0EF900966689"
-               BuildableName = "LDTimer.app"
-               BlueprintName = "LDTimer"
-               ReferencedContainer = "container:LDTimer.xcodeproj">
+               BuildableName = "Debate Timer.app"
+               BlueprintName = "Debate Timer"
+               ReferencedContainer = "container:Debate Timer.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "77742AF31E7E0EF900966689"
-               BuildableName = "LDTimerTests.xctest"
-               BlueprintName = "LDTimerTests"
-               ReferencedContainer = "container:LDTimer.xcodeproj">
+               BuildableName = "Debate TimerTests.xctest"
+               BlueprintName = "Debate TimerTests"
+               ReferencedContainer = "container:Debate Timer.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "77742AFE1E7E0EF900966689"
-               BuildableName = "LDTimerUITests.xctest"
-               BlueprintName = "LDTimerUITests"
-               ReferencedContainer = "container:LDTimer.xcodeproj">
+               BuildableName = "Debate TimerUITests.xctest"
+               BlueprintName = "Debate TimerUITests"
+               ReferencedContainer = "container:Debate Timer.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "77742ADF1E7E0EF900966689"
-            BuildableName = "LDTimer.app"
-            BlueprintName = "LDTimer"
-            ReferencedContainer = "container:LDTimer.xcodeproj">
+            BuildableName = "Debate Timer.app"
+            BlueprintName = "Debate Timer"
+            ReferencedContainer = "container:Debate Timer.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "77742ADF1E7E0EF900966689"
-            BuildableName = "LDTimer.app"
-            BlueprintName = "LDTimer"
-            ReferencedContainer = "container:LDTimer.xcodeproj">
+            BuildableName = "Debate Timer.app"
+            BlueprintName = "Debate Timer"
+            ReferencedContainer = "container:Debate Timer.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "77742ADF1E7E0EF900966689"
-            BuildableName = "LDTimer.app"
-            BlueprintName = "LDTimer"
-            ReferencedContainer = "container:LDTimer.xcodeproj">
+            BuildableName = "Debate Timer.app"
+            BlueprintName = "Debate Timer"
+            ReferencedContainer = "container:Debate Timer.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

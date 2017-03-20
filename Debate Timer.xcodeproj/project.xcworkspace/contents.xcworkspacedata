@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:LDTimer.xcodeproj">
+      location = "self:/Users/anirudhnatarajan/Desktop/LDTimer/Debate Timer.xcodeproj">
    </FileRef>
 </Workspace>

@@ -12,6 +12,14 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    
+    var affPrepTime = Int()
+    var negPrepTime = Int()
+    
+    var form: String = String()
+    var speechNameArray: [String] = [String]()
+    var speechTimeArray: [Int] = [Int]()
+    var speechID: Int = 0
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {

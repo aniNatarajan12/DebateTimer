@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		77270D091E7EF585003B06B0 /* GameOver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77270D081E7EF585003B06B0 /* GameOver.swift */; };
 		77742AE41E7E0EF900966689 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77742AE31E7E0EF900966689 /* AppDelegate.swift */; };
 		77742AE61E7E0EF900966689 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77742AE51E7E0EF900966689 /* ViewController.swift */; };
 		77742AE91E7E0EF900966689 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77742AE71E7E0EF900966689 /* Main.storyboard */; };
@@ -14,6 +15,9 @@
 		77742AEE1E7E0EF900966689 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77742AEC1E7E0EF900966689 /* LaunchScreen.storyboard */; };
 		77742AF91E7E0EF900966689 /* LDTimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77742AF81E7E0EF900966689 /* LDTimerTests.swift */; };
 		77742B041E7E0EF900966689 /* LDTimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77742B031E7E0EF900966689 /* LDTimerUITests.swift */; };
+		77742B121E7E18EE00966689 /* MainTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77742B111E7E18EE00966689 /* MainTimer.swift */; };
+		77742B141E7E299A00966689 /* PrepTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77742B131E7E299A00966689 /* PrepTime.swift */; };
+		77D168C21E7E6CD800C9D341 /* Alarm-tone.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 77D168C11E7E6CD800C9D341 /* Alarm-tone.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,19 +38,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		77742AE01E7E0EF900966689 /* LDTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LDTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		77270D081E7EF585003B06B0 /* GameOver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOver.swift; sourceTree = "<group>"; };
+		77742AE01E7E0EF900966689 /* Debate Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Debate Timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		77742AE31E7E0EF900966689 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		77742AE51E7E0EF900966689 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		77742AE81E7E0EF900966689 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		77742AEA1E7E0EF900966689 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		77742AED1E7E0EF900966689 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		77742AEF1E7E0EF900966689 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		77742AF41E7E0EF900966689 /* LDTimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LDTimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		77742AF41E7E0EF900966689 /* Debate TimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Debate TimerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		77742AF81E7E0EF900966689 /* LDTimerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LDTimerTests.swift; sourceTree = "<group>"; };
 		77742AFA1E7E0EF900966689 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		77742AFF1E7E0EF900966689 /* LDTimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LDTimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		77742AFF1E7E0EF900966689 /* Debate TimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Debate TimerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		77742B031E7E0EF900966689 /* LDTimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LDTimerUITests.swift; sourceTree = "<group>"; };
 		77742B051E7E0EF900966689 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77742B111E7E18EE00966689 /* MainTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTimer.swift; sourceTree = "<group>"; };
+		77742B131E7E299A00966689 /* PrepTime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrepTime.swift; sourceTree = "<group>"; };
+		77D168C11E7E6CD800C9D341 /* Alarm-tone.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Alarm-tone.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,9 +95,9 @@
 		77742AE11E7E0EF900966689 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				77742AE01E7E0EF900966689 /* LDTimer.app */,
-				77742AF41E7E0EF900966689 /* LDTimerTests.xctest */,
-				77742AFF1E7E0EF900966689 /* LDTimerUITests.xctest */,
+				77742AE01E7E0EF900966689 /* Debate Timer.app */,
+				77742AF41E7E0EF900966689 /* Debate TimerTests.xctest */,
+				77742AFF1E7E0EF900966689 /* Debate TimerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,10 +107,14 @@
 			children = (
 				77742AE31E7E0EF900966689 /* AppDelegate.swift */,
 				77742AE51E7E0EF900966689 /* ViewController.swift */,
+				77742B111E7E18EE00966689 /* MainTimer.swift */,
 				77742AE71E7E0EF900966689 /* Main.storyboard */,
+				77270D081E7EF585003B06B0 /* GameOver.swift */,
+				77742B131E7E299A00966689 /* PrepTime.swift */,
 				77742AEA1E7E0EF900966689 /* Assets.xcassets */,
 				77742AEC1E7E0EF900966689 /* LaunchScreen.storyboard */,
 				77742AEF1E7E0EF900966689 /* Info.plist */,
+				77D168C11E7E6CD800C9D341 /* Alarm-tone.mp3 */,
 			);
 			path = LDTimer;
 			sourceTree = "<group>";
@@ -128,9 +140,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		77742ADF1E7E0EF900966689 /* LDTimer */ = {
+		77742ADF1E7E0EF900966689 /* Debate Timer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 77742B081E7E0EF900966689 /* Build configuration list for PBXNativeTarget "LDTimer" */;
+			buildConfigurationList = 77742B081E7E0EF900966689 /* Build configuration list for PBXNativeTarget "Debate Timer" */;
 			buildPhases = (
 				77742ADC1E7E0EF900966689 /* Sources */,
 				77742ADD1E7E0EF900966689 /* Frameworks */,
@@ -140,14 +152,14 @@
 			);
 			dependencies = (
 			);
-			name = LDTimer;
+			name = "Debate Timer";
 			productName = LDTimer;
-			productReference = 77742AE01E7E0EF900966689 /* LDTimer.app */;
+			productReference = 77742AE01E7E0EF900966689 /* Debate Timer.app */;
 			productType = "com.apple.product-type.application";
 		};
-		77742AF31E7E0EF900966689 /* LDTimerTests */ = {
+		77742AF31E7E0EF900966689 /* Debate TimerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 77742B0B1E7E0EF900966689 /* Build configuration list for PBXNativeTarget "LDTimerTests" */;
+			buildConfigurationList = 77742B0B1E7E0EF900966689 /* Build configuration list for PBXNativeTarget "Debate TimerTests" */;
 			buildPhases = (
 				77742AF01E7E0EF900966689 /* Sources */,
 				77742AF11E7E0EF900966689 /* Frameworks */,
@@ -158,14 +170,14 @@
 			dependencies = (
 				77742AF61E7E0EF900966689 /* PBXTargetDependency */,
 			);
-			name = LDTimerTests;
+			name = "Debate TimerTests";
 			productName = LDTimerTests;
-			productReference = 77742AF41E7E0EF900966689 /* LDTimerTests.xctest */;
+			productReference = 77742AF41E7E0EF900966689 /* Debate TimerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		77742AFE1E7E0EF900966689 /* LDTimerUITests */ = {
+		77742AFE1E7E0EF900966689 /* Debate TimerUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 77742B0E1E7E0EF900966689 /* Build configuration list for PBXNativeTarget "LDTimerUITests" */;
+			buildConfigurationList = 77742B0E1E7E0EF900966689 /* Build configuration list for PBXNativeTarget "Debate TimerUITests" */;
 			buildPhases = (
 				77742AFB1E7E0EF900966689 /* Sources */,
 				77742AFC1E7E0EF900966689 /* Frameworks */,
@@ -176,9 +188,9 @@
 			dependencies = (
 				77742B011E7E0EF900966689 /* PBXTargetDependency */,
 			);
-			name = LDTimerUITests;
+			name = "Debate TimerUITests";
 			productName = LDTimerUITests;
-			productReference = 77742AFF1E7E0EF900966689 /* LDTimerUITests.xctest */;
+			productReference = 77742AFF1E7E0EF900966689 /* Debate TimerUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -193,6 +205,7 @@
 				TargetAttributes = {
 					77742ADF1E7E0EF900966689 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = Y5YF33LJBG;
 						ProvisioningStyle = Automatic;
 					};
 					77742AF31E7E0EF900966689 = {
@@ -207,7 +220,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 77742ADB1E7E0EF900966689 /* Build configuration list for PBXProject "LDTimer" */;
+			buildConfigurationList = 77742ADB1E7E0EF900966689 /* Build configuration list for PBXProject "Debate Timer" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -220,9 +233,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				77742ADF1E7E0EF900966689 /* LDTimer */,
-				77742AF31E7E0EF900966689 /* LDTimerTests */,
-				77742AFE1E7E0EF900966689 /* LDTimerUITests */,
+				77742ADF1E7E0EF900966689 /* Debate Timer */,
+				77742AF31E7E0EF900966689 /* Debate TimerTests */,
+				77742AFE1E7E0EF900966689 /* Debate TimerUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -232,6 +245,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77D168C21E7E6CD800C9D341 /* Alarm-tone.mp3 in Resources */,
 				77742AEE1E7E0EF900966689 /* LaunchScreen.storyboard in Resources */,
 				77742AEB1E7E0EF900966689 /* Assets.xcassets in Resources */,
 				77742AE91E7E0EF900966689 /* Main.storyboard in Resources */,
@@ -259,8 +273,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77742B121E7E18EE00966689 /* MainTimer.swift in Sources */,
 				77742AE61E7E0EF900966689 /* ViewController.swift in Sources */,
 				77742AE41E7E0EF900966689 /* AppDelegate.swift in Sources */,
+				77270D091E7EF585003B06B0 /* GameOver.swift in Sources */,
+				77742B141E7E299A00966689 /* PrepTime.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,12 +302,12 @@
 /* Begin PBXTargetDependency section */
 		77742AF61E7E0EF900966689 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 77742ADF1E7E0EF900966689 /* LDTimer */;
+			target = 77742ADF1E7E0EF900966689 /* Debate Timer */;
 			targetProxy = 77742AF51E7E0EF900966689 /* PBXContainerItemProxy */;
 		};
 		77742B011E7E0EF900966689 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 77742ADF1E7E0EF900966689 /* LDTimer */;
+			target = 77742ADF1E7E0EF900966689 /* Debate Timer */;
 			targetProxy = 77742B001E7E0EF900966689 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -336,6 +353,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -386,6 +404,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -412,9 +431,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y5YF33LJBG;
 				INFOPLIST_FILE = LDTimer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Kodikos.LDTimer;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Kodikos.DebateTimer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -424,9 +444,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y5YF33LJBG;
 				INFOPLIST_FILE = LDTimer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Kodikos.LDTimer;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Kodikos.DebateTimer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -442,7 +463,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.Kodikos.LDTimerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LDTimer.app/LDTimer";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Debate Timer.app/Debate Timer";
 			};
 			name = Debug;
 		};
@@ -456,7 +477,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.Kodikos.LDTimerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LDTimer.app/LDTimer";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Debate Timer.app/Debate Timer";
 			};
 			name = Release;
 		};
@@ -489,7 +510,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		77742ADB1E7E0EF900966689 /* Build configuration list for PBXProject "LDTimer" */ = {
+		77742ADB1E7E0EF900966689 /* Build configuration list for PBXProject "Debate Timer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				77742B061E7E0EF900966689 /* Debug */,
@@ -498,29 +519,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		77742B081E7E0EF900966689 /* Build configuration list for PBXNativeTarget "LDTimer" */ = {
+		77742B081E7E0EF900966689 /* Build configuration list for PBXNativeTarget "Debate Timer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				77742B091E7E0EF900966689 /* Debug */,
 				77742B0A1E7E0EF900966689 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		77742B0B1E7E0EF900966689 /* Build configuration list for PBXNativeTarget "LDTimerTests" */ = {
+		77742B0B1E7E0EF900966689 /* Build configuration list for PBXNativeTarget "Debate TimerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				77742B0C1E7E0EF900966689 /* Debug */,
 				77742B0D1E7E0EF900966689 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		77742B0E1E7E0EF900966689 /* Build configuration list for PBXNativeTarget "LDTimerUITests" */ = {
+		77742B0E1E7E0EF900966689 /* Build configuration list for PBXNativeTarget "Debate TimerUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				77742B0F1E7E0EF900966689 /* Debug */,
 				77742B101E7E0EF900966689 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
